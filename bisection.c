@@ -15,7 +15,7 @@ int main(){
 	
 	
 	do{
-		printf("Enter the start and end of the range in order.");
+		printf("Enter the start and end of the range in order.(if the range is not suitable you will try again.)");
 		scanf("%f %f",&first,&last);
 	}
 	while(calculate(coefficients,first,degree)*calculate(coefficients,last,degree)>0||calculate(coefficients,first,degree)*calculate(coefficients,last,degree)==0);
